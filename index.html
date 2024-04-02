@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Моделирование. Визуализация сложения колебаний. Биения</title>
+  
+  <link rel="stylesheet" href="output.css">
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body class="bg-blue-200">
+  <header class="text-center">
+    <h1 class=" my-10 font-serif text-2xl "> Моделирование. Визуализация сложения колебаний. Биения</h1>
+  </header>
+
+  <div class="split left">
+    <div class="centered">
+
+      <div>
+        <label>Амплитуда </label> 
+      </div>
+        <div>
+        <input class="input  text-center text" type="text" id="A_id" value="1">
+    </div>
+
+  <div>
+    <label>Частота колебаний w1 (рад/c)</label> 
+    <input class="input  text-center text" type="text" id="frec1_id" value="2.4">
+</div>
+<div>
+  <label>Частота колебаний w2 (рад/c)</label> 
+  <input class="input  text-center text" type="text" id="frec2_id" value="2.5">
+</div>
+      <div class="my-10 text-center">
+        <input  id="del" class="hidden btn text-center" type="button" value="Костыль" />
+      </div>
+
+      <div class="text-center">
+        <input  id="result" class="btn" type="button" value="Результат" />
+      </div>
+      <div class="my-10 text-center">
+        <input  id="del" class="hidden btn text-center" type="button" value="Костыль" />
+      </div>
+
+      <div>
+        <label for="radius" id="timeT">Время t(c): </label>
+      </div><div>
+        <input type="range" id="time" name="radius" min="0" max="500" value="100" />
+        </div>
+    
+    </div>
+  </div>
+
+  <div class="split right">
+    <div style="width: 80%;">
+    <div id="tester" ></div>
+    </div>
+  </div>
+  <footer class="footer text-lg">
+    <a href="https://t.me/Indo_evri_momint" target="_blank"> Ссылка на telegram</a>
+</footer>
+    
+
+
+<script src="app.js"></script>
+
+</body>
+</html>
