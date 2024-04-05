@@ -81,17 +81,20 @@ else{
     var result ={
         x: masst,
         y: massyY1,
+        name: 'I',
         mode:'lines', line: {color: "#04BBEC"}
     };
     var result2 ={
         x: masst,
         y: massyY2,
-        mode: 'lines', line: {color: "#04BBEC"}
+        name: 'II',
+        mode: 'lines', line: {color: "#FF82F4"}
     };
     var result3 ={
         x: masst,
         y: massyY12,
-        mode: 'lines', line: {color: "#FF82F4"}
+        name: 'I+II',
+        mode: 'lines', line: {color: "#4740acbc"}
     };
     
     var baseLayout = {
